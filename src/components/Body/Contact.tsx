@@ -7,13 +7,13 @@ export default function Contact() {
     event.preventDefault();
 
     const myForm = event.target;
-    const formData = new FormData(myForm);
+    const formData: any = new FormData(myForm);
 
     try {
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: formData,
+        body: new URLSearchParams(formData).toString(),
       });
 
       if (response.ok) {
@@ -252,6 +252,7 @@ export default function Contact() {
         <form
           className="space-y-8 py-16"
           name="contact"
+          method="POST"
           onSubmit={handleSubmit}
           data-netlify={true}
         >
@@ -302,6 +303,7 @@ export default function Contact() {
               placeholder="Escribe el contenido de tu mensaje aquí..."
             ></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button
             type="submit"
             className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-800 sm:w-fit hover:bg-blue-900 focus:outline-none"
