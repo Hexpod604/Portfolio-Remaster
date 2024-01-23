@@ -11,7 +11,10 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed backdrop-blur-md z-[1000]">
       <div className="w-full md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-4 lg:px-0">
-        <Link href="#" className="hidden sm:flex items-center justify-center space-x-3 rtl:space-x-reverse">
+        <Link
+          href="#"
+          className="hidden sm:flex items-center justify-center space-x-3 rtl:space-x-reverse"
+        >
           <span className="self-center text-white text-2xl font-semibold whitespace-nowrap">
             Lautaro Spiazzi
           </span>
@@ -41,11 +44,15 @@ export default function Navbar() {
             />
           </svg>
         </button>
-        <div className={`${isOpen ? "block" : "hidden"} w-full lg:block lg:w-auto`} id="navbar-default">
+        <div
+          className={`${isOpen ? "block" : "hidden"} w-full lg:block lg:w-auto`}
+          id="navbar-default"
+        >
           <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 backdrop-blur-lg lg:backdrop-blur-none rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0">
             {NavbarLinks.map((item, index) => (
               <li key={index}>
                 <Link
+                  onClick={() => setOpen(false)}
                   href={item.path}
                   className={`${
                     path === item.path
