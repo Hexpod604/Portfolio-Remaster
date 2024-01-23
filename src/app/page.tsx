@@ -1,5 +1,6 @@
 "use client";
 
+import Contact from "@/components/Body/Contact";
 import Expositor from "@/components/Body/Expositor";
 import Header from "@/components/Body/Header";
 import HorizontalRuler from "@/components/Body/HorizontalRuler";
@@ -16,12 +17,14 @@ function HomePage() {
       </header>
       <Header></Header>
 
-      <main className="bg-gradient-to-br from-gray-950 to-gray-800">
-        <HorizontalRuler></HorizontalRuler>
+      <main className="bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800">
+        {/* <HorizontalRuler></HorizontalRuler> */}
         <Expositor></Expositor>
+        <HorizontalRuler></HorizontalRuler>
         <Projects></Projects>
         <Technologies></Technologies>
         <Presentation></Presentation>
+        <Contact></Contact>
       </main>
     </>
   );

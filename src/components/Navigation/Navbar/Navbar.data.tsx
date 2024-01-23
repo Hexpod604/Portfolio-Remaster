@@ -1,23 +1,23 @@
 export const NavbarLinks = [
     {
       name: "Inicio",
-      path: "#",
+      path: "/#start",
     },
     {
       name: "Proyectos",
-      path: "#projects",
+      path: "/#projects",
     },
     {
       name: "Tecnologías",
-      path: "#technologies"
+      path: "/#technologies"
     },
     {
       name: "Sobre mi",
-      path: "#aboutme",
+      path: "/#aboutme",
     },
     {
       name: "Contacto",
-      path: "#contact",
+      path: "/#contact",
     },
   ];
   

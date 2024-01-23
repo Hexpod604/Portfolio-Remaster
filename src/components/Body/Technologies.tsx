@@ -3,12 +3,12 @@
 export default function Technologies() {
   return (
     <section id="technologies">
-      <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+      <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 lg:px-0">
         <h2 className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
           Tecnologías dominadas
         </h2>
-        <div className="flex justify-center items-center gap-12 text-gray-500 text-gray-400">
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+        <div className="w-full flex justify-center items-center gap-12 text-gray-500 text-gray-400">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">HTML</span>
             <svg
               viewBox="0 0 32 32"
@@ -16,11 +16,11 @@ export default function Technologies() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -36,7 +36,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">CSS</span>
             <svg
               viewBox="0 0 32 32"
@@ -44,11 +44,11 @@ export default function Technologies() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -64,18 +64,18 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">Tailwind</span>
             <svg
               viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 <title>file_type_tailwind</title>
@@ -86,7 +86,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">JS</span>
             <svg
               viewBox="0 0 256 256"
@@ -96,11 +96,11 @@ export default function Technologies() {
               fill="#000000"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -125,7 +125,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">React</span>
             <svg
               viewBox="0 0 32 32"
@@ -133,11 +133,11 @@ export default function Technologies() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -154,7 +154,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">GIT</span>
             <svg
               viewBox="0 0 32 32"
@@ -162,11 +162,11 @@ export default function Technologies() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -181,7 +181,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">NextJS</span>
             <svg
               viewBox="0 0 15 15"
@@ -189,24 +189,24 @@ export default function Technologies() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-14"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 10.087 13.6902 12.3681 11.6975 13.7163L4.90687 4.20942C4.78053 4.03255 4.5544 3.95756 4.34741 4.02389C4.14042 4.09022 4 4.28268 4 4.50004V12H5V6.06027L10.8299 14.2221C9.82661 14.7201 8.696 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM10 10V4H11V10H10Z"
                   fill="#ffffff"
                 ></path>{" "}
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">NodeJS</span>
             <svg
               viewBox="-16.5 0 289 289"
@@ -215,11 +215,11 @@ export default function Technologies() {
               preserveAspectRatio="xMidYMid"
               fill="#000000"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -235,7 +235,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1">
+          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">MongoDB</span>
             <svg
               viewBox="0 0 1024 1024"

@@ -18,25 +18,35 @@ export default function Navbar() {
           </Link>
           <ul className="flex flex-wrap gap-3 items-center mb-2 text-sm font-medium sm:mb-0 text-gray-400">
             <li>
-              <Link href="#" className="hover:underline md:me-6">
-                Home
+              <Link href="#start" className="hover:underline md:me-6">
+                Inicio
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:underline md:me-6">
-                Contact
+              <Link href="#projects" className="hover:underline md:me-6">
+                Proyectos
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:underline md:me-6">
-                ToS
+              <Link href="#technologies" className="hover:underline md:me-6">
+                Tecnologías
+              </Link>
+            </li>
+            <li>
+              <Link href="#aboutme" className="hover:underline md:me-6">
+                Sobre mi
+              </Link>
+            </li>
+            <li>
+              <Link href="#contact" className="hover:underline">
+                Contacto
               </Link>
             </li>
           </ul>
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm sm:text-center text-gray-400">
-          Desarrollado con ❤ por {" "}
+          Desarrollado con ❤ por{" "}
           <Link href="/" className="hover:underline">
             Lautaro Spiazzi
           </Link>

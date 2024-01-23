@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:px-0 lg:py-16">
         <h2 className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
           Proyectos finalizados
         </h2>
@@ -134,7 +134,7 @@ export default function Projects() {
               </button>
               <button
                 type="button"
-                className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30"
+                className="text-white bg-[#24292F] hover:bg-[#24292F]/90 ocus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
               >
                 <svg
                   className="w-4 h-4 me-2"

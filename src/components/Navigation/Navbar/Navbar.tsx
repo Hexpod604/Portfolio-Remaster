@@ -10,7 +10,7 @@ export default function Navbar() {
   const path = usePathname();
   return (
     <nav className="w-full fixed backdrop-blur-md z-[1000]">
-      <div className="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <Link href="#" className="flex items-center justify-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-white text-2xl font-semibold whitespace-nowrap">
             Lautaro Spiazzi
