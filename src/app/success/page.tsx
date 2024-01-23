@@ -23,18 +23,18 @@ export default function SuccessPage() {
                 className="h-16 mx-auto my-3"
                 fill="#000000"
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   {" "}
                   <title></title> <desc></desc> <defs></defs>{" "}
                   <g
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     id="Page-1"
                     stroke="none"
                     stroke-width="1"
