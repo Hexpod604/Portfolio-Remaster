@@ -17,28 +17,26 @@ export default function Expositor() {
           <Link
             href="https://bushcoding.github.io/"
             target="_BLANK"
-            className="flex justify-center items-center"
+            className="flex justify-center items-center duration-100 hover:-translate-y-[3px]"
           >
             <Image
               className="invert h-12 w-fit"
               src={BushCodingLogo}
               height={48}
               width={105}
-              placeholder="blur"
               alt="Bush Coding"
             />
           </Link>
           <Link
             href="https://cloudycoding.co"
             target="_BLANK"
-            className="flex gap-2 justify-center items-center"
+            className="flex gap-2 justify-center items-center duration-100 hover:-translate-y-[3px]"
           >
             <Image
               className="h-12 w-fit"
               src={CloudyCodingLogo}
               height={48}
               width={48}
-              placeholder="blur"
               alt="Cloudy Coding"
             />
             <div className="flex flex-col justify-center items-center text-white text-xl font-bold">
@@ -48,14 +46,13 @@ export default function Expositor() {
           </Link>
           <Link
             href="https://lautaro-spiazzi.netlify.app"
-            className="flex justify-center items-center"
+            className="flex justify-center items-center duration-100 hover:-translate-y-[3px]"
           >
             <Image
               className="h-12 w-fit"
               src={HexStudiosLogo}
               height={48}
               width={87}
-              placeholder="blur"
               alt="Hex Studios"
             />
           </Link>
