@@ -3,12 +3,12 @@
 export default function Technologies() {
   return (
     <section id="technologies">
-      <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 lg:px-0">
+      <div className="py-8 lg:py-16 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-4 lg:px-0">
         <h2 className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
-          Tecnologías dominadas
+          Tecnologías que utilizo
         </h2>
-        <div className="w-full flex justify-center items-center gap-12 text-gray-500 text-gray-400">
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+        <div className="w-full flex justify-evenly sm:justify-center items-center flex-wrap gap-8 sm:gap-12 text-gray-500 text-gray-400">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">HTML</span>
             <svg
               viewBox="0 0 32 32"
@@ -36,7 +36,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">CSS</span>
             <svg
               viewBox="0 0 32 32"
@@ -64,7 +64,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">Tailwind</span>
             <svg
               viewBox="0 0 32 32"
@@ -86,7 +86,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">JS</span>
             <svg
               viewBox="0 0 256 256"
@@ -125,7 +125,52 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+            <span className="text-white font-bold">TS</span>
+            <svg
+              viewBox="0 0 256 256"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+              className="h-14"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-Linecap="round"
+                stroke-Linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                {" "}
+                <g>
+                  {" "}
+                  <polygon
+                    fill="#007ACC"
+                    transform="translate(128.000000, 128.000000) scale(1, -1) translate(-128.000000, -128.000000) "
+                    points="0 128 0 0 128 0 256 0 256 128 256 256 128 256 0 256"
+                  >
+                    {" "}
+                  </polygon>{" "}
+                  <path
+                    d="M146.658132,223.436863 L146.739401,212.953054 L130.079084,212.953054 L113.418767,212.953054 L113.418767,165.613371 L113.418767,118.273689 L101.63464,118.273689 L89.8505126,118.273689 L89.8505126,165.613371 L89.8505126,212.953054 L73.1901951,212.953054 L56.5298776,212.953054 L56.5298776,223.233689 C56.5298776,228.922577 56.6517824,233.676863 56.8143221,233.798768 C56.9362269,233.961308 77.2130522,234.042577 101.797179,234.001943 L146.536227,233.880038 L146.658132,223.436863 Z"
+                    fill="#FFFFFF"
+                    transform="translate(101.634640, 176.142993) rotate(-180.000000) translate(-101.634640, -176.142993) "
+                  >
+                    {" "}
+                  </path>{" "}
+                  <path
+                    d="M206.566631,234.272145 C213.068219,232.646748 218.025679,229.761668 222.57679,225.048018 C224.933616,222.528653 228.428219,217.936907 228.712663,216.839764 C228.793933,216.514684 217.659965,209.037859 210.914568,204.852462 C210.670758,204.689922 209.69552,205.74643 208.598377,207.371827 C205.306949,212.166748 201.852981,214.239129 196.570441,214.604843 C188.809171,215.133097 183.811076,211.069605 183.851711,204.283573 C183.851711,202.292462 184.136155,201.114049 184.948854,199.488653 C186.65552,195.953414 189.825044,193.840399 199.7806,189.533097 C218.106949,181.649922 225.949489,176.448653 230.825679,169.053097 C236.270758,160.804208 237.489806,147.638494 233.792028,137.845478 C229.728536,127.199129 219.651076,119.966113 205.469489,117.568653 C201.080917,116.796589 190.678377,116.918494 185.964727,117.771827 C175.684092,119.600399 165.931711,124.679764 159.917743,131.343891 C157.560917,133.944526 152.969171,140.730557 153.253616,141.218176 C153.37552,141.380716 154.432028,142.030875 155.610441,142.721668 C156.748219,143.371827 161.05552,145.850557 165.119012,148.207383 L172.473933,152.474049 L174.01806,150.198494 C176.171711,146.907065 180.885362,142.396589 183.729806,140.893097 C191.897425,136.585795 203.112663,137.195319 208.639012,142.15278 C210.995838,144.30643 211.971076,146.541351 211.971076,149.83278 C211.971076,152.799129 211.605362,154.099446 210.061235,156.334367 C208.070123,159.178811 204.006631,161.576272 192.466314,166.574367 C179.259965,172.263256 173.571076,175.798494 168.369806,181.406113 C165.362822,184.656907 162.518377,189.858176 161.339965,194.206113 C160.364727,197.822621 160.120917,206.884208 160.892981,210.541351 C163.61552,223.300716 173.245996,232.199764 187.143139,234.841034 C191.653616,235.694367 202.137425,235.369287 206.566631,234.272145 Z"
+                    fill="#FFFFFF"
+                    transform="translate(194.578507, 176.190240) scale(1, -1) translate(-194.578507, -176.190240) "
+                  >
+                    {" "}
+                  </path>{" "}
+                </g>{" "}
+              </g>
+            </svg>
+          </div>
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">React</span>
             <svg
               viewBox="0 0 32 32"
@@ -154,7 +199,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">GIT</span>
             <svg
               viewBox="0 0 32 32"
@@ -181,7 +226,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">NextJS</span>
             <svg
               viewBox="0 0 15 15"
@@ -206,7 +251,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">NodeJS</span>
             <svg
               viewBox="-16.5 0 289 289"
@@ -235,7 +280,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
             <span className="text-white font-bold">MongoDB</span>
             <svg
               viewBox="0 0 1024 1024"
@@ -251,12 +296,7 @@ export default function Technologies() {
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
-                <circle
-                  cx="512"
-                  cy="512"
-                  r="512"
-                  fill="#13aa52"
-                ></circle>{" "}
+                <circle cx="512" cy="512" r="512" fill="#13aa52"></circle>{" "}
                 <path
                   d="M648.86 449.44c-32.34-142.73-108.77-189.66-117-207.59-9-12.65-18.12-35.15-18.12-35.15-.15-.38-.39-1.05-.67-1.7-.93 12.65-1.41 17.53-13.37 30.29-18.52 14.48-113.54 94.21-121.27 256.37-7.21 151.24 109.25 241.36 125 252.85l1.79 1.27v-.11c.1.76 5 36 8.44 73.34H526a726.68 726.68 0 0 1 13-78.53l1-.65a204.48 204.48 0 0 0 20.11-16.45l.72-.65c33.48-30.93 93.67-102.47 93.08-216.53a347.07 347.07 0 0 0-5.05-56.76zM512.35 659.12s0-212.12 7-212.08c5.46 0 12.53 273.61 12.53 273.61-9.72-1.17-19.53-45.03-19.53-61.53z"
                   fill="#fff"

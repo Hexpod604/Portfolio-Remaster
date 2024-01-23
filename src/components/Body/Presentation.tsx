@@ -5,19 +5,19 @@ import Link from "next/link";
 export default function Presentation() {
   return (
     <section id="aboutme">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-0">
+      <div className="py-8 px-4 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl lg:py-16 lg:px-0">
         <div className="max-w-screen-lg sm:text-lg text-gray-400">
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-white">
+          <h2 className="mb-3 text-3xl font-bold tracking-tight leading-tight text-center sm:text-left text-white md:text-4xl">
             Acerca de mi persona
           </h2>
-          <p className="mb-1">
+          <p className="mb-1 text-md sm:text-lg lg:text-xl">
             Me presento, soy <span className="font-semibold text-gray-300">Lautaro Spiazzi</span>, y cumplo los roles de
             desarrollador web tanto{" "}
             <span className="font-semibold text-yellow-200">Front-End</span>{" "}
             como <span className="font-semibold text-yellow-200">Back-End</span>
             .
           </p>
-          <p className="mb-1">
+          <p className="mb-1 text-md sm:text-lg lg:text-xl">
             Habito en la localidad de{" "}
             <span className="font-semibold text-gray-300">Entre Rios, Argentina</span>, con
             una edad de 15 años, logré abrirme un espacio para desarrollar{" "}
@@ -25,7 +25,7 @@ export default function Presentation() {
             <span className="font-semibold text-sky-400">creatividad</span> y la{" "}
             <span className="font-semibold text-sky-400">funcionalidad</span>.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-md sm:text-lg lg:text-xl">
             Con <span className="font-semibold text-gray-300">4 años de aprendizaje</span> en
             el desarrollo, mi enfoque no solo se centra en la creación de sitios
             web visualmente atractivos, sino también en la construcción de{" "}

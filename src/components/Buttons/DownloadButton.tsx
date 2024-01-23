@@ -2,7 +2,7 @@
 
 export default function DownloadButton() {
   return (
-    <button className="hvr-grow-rotate bg-blue-800 hover:bg-blue-900 text-gray-100 font-semibold py-2 px-4 rounded inline-flex items-center duration-100">
+    <button className="hvr-grow-rotate bg-blue-800 hover:bg-blue-900 text-gray-100 font-semibold px-3 py-2 sm:px-4 rounded inline-flex items-center duration-100">
       <svg
         className="fill-current w-4 h-4 mr-2"
         xmlns="http://www.w3.org/2000/svg"

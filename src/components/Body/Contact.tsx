@@ -19,26 +19,26 @@ export default function Contact() {
       if (response.ok) {
         alert("¡Gracias por tu envío!");
       } else {
-        throw new Error(`Error: ${response.status} - ${response.statusText}`);
+        alert("Ha ocurrido un error al enviar el formulario, inténtelo de nuevo.")
       }
     } catch (error: any) {
-      alert(error.message);
+      alert("Ha ocurrido un error al enviar el formulario, inténtelo de nuevo.");
     }
   };
 
   return (
     <section id="contact">
-      <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 lg:px-0">
-        <h2 className="mb-3 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
+      <div className="py-8 lg:py-16 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-4 lg:px-0">
+        <h2 className="mb-3 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white">
           ¿Cómo contactarme?
         </h2>
-        <p className="mb-8 text-lg font-normal text-center text-gray-400 md:text-xl">
+        <p className="mb-8 text-md font-normal text-center text-gray-400 md:text-xl">
           Cuento con diversos métodos de contacto, sin embargo, a continuación
           detallaré las redes sociales que utilizo activamente, y a través de
           las cuales responderé ante su consulta, al igual que un formulario de
           contacto.
         </p>
-        <div className="flex justify-center items-center gap-12 text-gray-500 text-gray-400">
+        <div className="flex justify-center items-center flex-wrap gap-2 sm:gap-12 text-gray-500 text-gray-400">
           <Link
             href="https://www.instagram.com/lautaro_spiazzi/"
             target="_BLANK"

@@ -8,13 +8,13 @@ import Npm from "@/images/npm.webp"
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:px-0 lg:py-16">
-        <h2 className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
+      <div className="py-8 px-4 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl lg:px-0 lg:py-16">
+        <h2 className="mb-8 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white">
           Proyectos finalizados
         </h2>
 
-        <div className="flex gap-6 justify-between items-stretch">
-          <div className="mb-12 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px]">
+        <div className="flex gap-6 justify-between items-stretch flex-wrap">
+          <div className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={CloudBucks}
@@ -23,7 +23,7 @@ export default function Projects() {
               />
             </div>
             <h5 className="text-lg font-bold">CloudyCoding | CloudBucks</h5>
-            <div className="flex items-center justify-center text-sm font-medium gap-3 lg:justify-start">
+            <div className="flex items-center justify-start text-sm font-medium gap-3">
               <span className="text-orange-600 font-semibold">HTML</span>
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
@@ -56,7 +56,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="mb-12 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between">
+          <div className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={CloudClips}
@@ -66,7 +66,7 @@ export default function Projects() {
             </div>
 
             <h5 className="text-lg font-bold">CloudyCoding | CloudClips</h5>
-            <div className="flex items-center justify-center text-sm font-medium gap-3 lg:justify-start">
+            <div className="flex items-center justify-start text-sm font-medium gap-3">
               <span className="text-orange-600 font-semibold">HTML</span>
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
@@ -99,7 +99,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px]">
+          <div className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={Npm}
@@ -109,14 +109,14 @@ export default function Projects() {
             </div>
 
             <h5 className="text-lg font-bold">Request logger</h5>
-            <div className="flex items-center justify-center text-sm font-medium gap-3 lg:justify-start">
+            <div className="flex items-center justify-start text-sm font-medium gap-3">
               <span className="text-yellow-300 font-semibold">Javascript</span>
               <span className="text-green-300 font-semibold">NodeJS</span>
             </div>
             <p className="text-neutral-300">
               Este paquete diseñado para ExpressJS, permite el registro de solicitudes realizadas al servidor determinado, con el objetivo de permitir el correcto desarrollo y manejo de distintos métodos en las solicitudes.
             </p>
-            <div className="flex items-center justify-start gap-3">
+            <div className="flex items-center justify-start flex-wrap gap-3">
               <Link
                 href="https://www.npmjs.com/package/@hexstudiosar/reqlogger"
                 target="_BLANK"

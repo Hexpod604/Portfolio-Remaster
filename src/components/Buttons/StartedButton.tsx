@@ -6,7 +6,7 @@ export default function StartedButton() {
   return (
     <Link
       href="#projects"
-      className="flex items-center justify-center py-2 px-4 rounded text-base font-medium text-center text-white bg-gray-700 hover:bg-gray-800"
+      className="flex items-center justify-center px-3 py-2 sm:px-4 rounded text-base font-medium text-center text-white bg-gray-700 hover:bg-gray-800"
     >
       Mis proyectos
       <svg

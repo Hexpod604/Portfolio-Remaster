@@ -16,7 +16,7 @@ export default function Navbar() {
               Lautaro Spiazzi
             </span>
           </Link>
-          <ul className="flex flex-wrap gap-3 items-center mb-2 text-sm font-medium sm:mb-0 text-gray-400">
+          <ul className="flex flex-wrap gap-3 justify-center items-center mb-2 text-sm font-medium sm:mb-0 text-gray-400">
             <li>
               <Link href="#start" className="hover:underline md:me-6">
                 Inicio
