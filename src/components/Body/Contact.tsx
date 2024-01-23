@@ -3,29 +3,6 @@
 import Link from "next/link";
 
 export default function Contact() {
-  const handleSubmit = async (event: any) => {
-    event.preventDefault();
-
-    const myForm = event.target;
-    const formData: any = new FormData(myForm);
-
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      });
-
-      if (response.ok) {
-        alert("¡Gracias por tu envío!");
-      } else {
-        alert("Ha ocurrido un error al enviar el formulario, inténtelo de nuevo.")
-      }
-    } catch (error: any) {
-      alert("Ha ocurrido un error al enviar el formulario, inténtelo de nuevo.");
-    }
-  };
-
   return (
     <section id="contact">
       <div className="py-8 lg:py-16 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-4 lg:px-0">
@@ -253,7 +230,7 @@ export default function Contact() {
           className="space-y-8 py-16"
           name="contact"
           method="POST"
-          onSubmit={handleSubmit}
+          action="/pages/success"
           data-netlify={true}
         >
           <div>
