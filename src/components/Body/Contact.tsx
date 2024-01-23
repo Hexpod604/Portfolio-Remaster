@@ -3,6 +3,29 @@
 import Link from "next/link";
 
 export default function Contact() {
+  const handleSubmit = async (event: any) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: formData,
+      });
+
+      if (response.ok) {
+        alert("¡Gracias por tu envío!");
+      } else {
+        throw new Error(`Error: ${response.status} - ${response.statusText}`);
+      }
+    } catch (error: any) {
+      alert(error.message);
+    }
+  };
+
   return (
     <section id="contact">
       <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 lg:px-0">
@@ -231,6 +254,7 @@ export default function Contact() {
           className="space-y-8 py-16"
           name="contact"
           method="POST"
+          onSubmit={handleSubmit}
           data-netlify={true}
         >
           <div>

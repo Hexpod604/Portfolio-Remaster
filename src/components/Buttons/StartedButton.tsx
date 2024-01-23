@@ -1,12 +1,14 @@
 "use client";
 
+import Link from "next/link";
+
 export default function StartedButton() {
   return (
-    <a
-      href="#"
+    <Link
+      href="#projects"
       className="flex items-center justify-center py-2 px-4 rounded text-base font-medium text-center text-white bg-gray-700 hover:bg-gray-800"
     >
-      Ver más
+      Mis proyectos
       <svg
         className="w-5 h-5 ml-2 -mr-1"
         fill="currentColor"
@@ -19,6 +21,6 @@ export default function StartedButton() {
           clipRule="evenodd"
         ></path>
       </svg>
-    </a>
+    </Link>
   );
 }

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <section id="projects">
@@ -20,15 +22,13 @@ export default function Projects() {
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
             <p className="text-neutral-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              doloribus neque inventore dolorum perferendis! Delectus id
-              voluptates dolorem, dolor, natus odio unde quos eos in omnis,
-              possimus voluptatum incidunt eius!
+              Esta página rediseñada, permite la obtención de dinero virtual para un juego denominado "Roblox" o la recaudación de dólares estadounidenses a través de la visualización de publicidad.
             </p>
             <div>
-              <button
-                type="button"
-                className="text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center flex items-center"
+              <Link
+                href="https://cloudbucks.cloudycoding.co"
+                target="_BLANK"
+                className="w-fit text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center flex items-center"
               >
                 Visitar
                 <svg
@@ -46,7 +46,7 @@ export default function Projects() {
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -64,15 +64,13 @@ export default function Projects() {
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
             <p className="text-neutral-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              doloribus neque inventore dolorum perferendis! Delectus id
-              voluptates dolorem, dolor, natus odio unde quos eos in omnis,
-              possimus voluptatum incidunt eius!
+              Sitio diseñado desde 0, adaptado a múltiples dispositivos. El objetivo de la página es permitir a los usuarios la descarga de contenido de diversas plataformas digitales.
             </p>
             <div>
-              <button
-                type="button"
-                className="text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center flex items-center"
+              <Link
+                href="https://cloudclips.cloudycoding.co"
+                target="_BLANK"
+                className="w-fit text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center flex items-center"
               >
                 Visitar
                 <svg
@@ -90,7 +88,7 @@ export default function Projects() {
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -108,11 +106,12 @@ export default function Projects() {
               <span className="text-green-300 font-semibold">NodeJS</span>
             </div>
             <p className="text-neutral-300">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nulla obcaecati eum reprehenderit illo ipsum doloremque, aliquid consequuntur! Eligendi laborum cupiditate in tempore accusantium sunt atque maxime distinctio explicabo eaque!
+              Este paquete diseñado para ExpressJS, permite el registro de solicitudes realizadas al servidor determinado, con el objetivo de permitir el correcto desarrollo y manejo de distintos métodos en las solicitudes.
             </p>
             <div className="flex items-center justify-start gap-3">
-              <button
-                type="button"
+              <Link
+                href="https://www.npmjs.com/package/@hexstudiosar/reqlogger"
+                target="_BLANK"
                 className="text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center flex items-center"
               >
                 Visitar
@@ -131,9 +130,9 @@ export default function Projects() {
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>
-              </button>
-              <button
-                type="button"
+              </Link>
+              <Link
+                href="https://github.com/Hexpod604/Reqlogger"
                 className="text-white bg-[#24292F] hover:bg-[#24292F]/90 ocus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
               >
                 <svg
@@ -150,7 +149,7 @@ export default function Projects() {
                   />
                 </svg>
                 Repositorio
-              </button>
+              </Link>
             </div>
           </div>
         </div>

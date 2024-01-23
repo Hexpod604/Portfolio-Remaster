@@ -6,6 +6,10 @@ import "atropos/css";
 import StartedButton from "@/components/Buttons/StartedButton";
 import DownloadButton from "@/components/Buttons/DownloadButton";
 
+import ProfilePhoto from "@/images/profilePhoto.png"
+
+import Image from "next/image"
+
 export default function Header() {
   return (
     <section className="bg-black">
@@ -40,17 +44,12 @@ export default function Header() {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <Atropos className="my-atropos" shadow={false} highlight={false}>
-            <img
+            <Image
               className="rounded-full"
-              src="https://cdn.discordapp.com/attachments/808747427959930921/1199037701899432026/pfplau.png?ex=65c115e1&is=65aea0e1&hm=2c1424347be108e3011fd1d353eac52cb53903f8432e03bf119384c5b2bace18&"
-              alt="mockup"
+              src={ProfilePhoto}
+              alt="Lautaro Spiazzi"
             />
           </Atropos>
-          {/* <img
-            className="rounded-full"
-            src="https://cdn.discordapp.com/attachments/808747427959930921/1199037701899432026/pfplau.png?ex=65c115e1&is=65aea0e1&hm=2c1424347be108e3011fd1d353eac52cb53903f8432e03bf119384c5b2bace18&"
-            alt="mockup"
-          /> */}
         </div>
       </div>
     </section>
