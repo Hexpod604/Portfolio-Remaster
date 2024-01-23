@@ -250,7 +250,7 @@ export default function Contact() {
         </div>
 
         <form
-          action="#"
+          action="/"
           className="space-y-8 py-16"
           name="contact"
           method="POST"
