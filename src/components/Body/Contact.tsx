@@ -231,8 +231,10 @@ export default function Contact() {
           name="contact"
           method="POST"
           action="/success"
+          netlify-honeypot="bot-field"
           data-netlify={true}
         >
+          <input name="bot-field" />
           <div>
             <label
               htmlFor="email"
@@ -280,7 +282,6 @@ export default function Contact() {
               placeholder="Escribe el contenido de tu mensaje aquí..."
             ></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
           <button
             type="submit"
             className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-800 sm:w-fit hover:bg-blue-900 focus:outline-none"
