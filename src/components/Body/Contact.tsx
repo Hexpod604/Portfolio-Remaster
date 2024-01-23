@@ -12,10 +12,15 @@ export default function Contact() {
         <p className="mb-8 text-lg font-normal text-center text-gray-400 md:text-xl">
           Cuento con diversos métodos de contacto, sin embargo, a continuación
           detallaré las redes sociales que utilizo activamente, y a través de
-          las cuales responderé ante su consulta.
+          las cuales responderé ante su consulta, al igual que un formulario de
+          contacto.
         </p>
         <div className="flex justify-center items-center gap-12 text-gray-500 text-gray-400">
-          <Link href="https://www.instagram.com/lautaro_spiazzi/" target="_BLANK" className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <Link
+            href="https://www.instagram.com/lautaro_spiazzi/"
+            target="_BLANK"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+          >
             <span className="text-white font-bold">Instagram</span>
             <svg
               viewBox="0 0 32 32"
@@ -116,7 +121,11 @@ export default function Contact() {
               </g>
             </svg>
           </Link>
-          <Link href="https://www.facebook.com/lautaro.spiazzi/" target="_BLANK" className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <Link
+            href="https://www.facebook.com/lautaro.spiazzi/"
+            target="_BLANK"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+          >
             <span className="text-white font-bold">Facebook</span>
             <svg
               viewBox="0 0 16 16"
@@ -141,7 +150,11 @@ export default function Contact() {
               </g>
             </svg>
           </Link>
-          <Link href="https://github.com/Hexpod604" target="_BLANK" className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <Link
+            href="https://github.com/Hexpod604"
+            target="_BLANK"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+          >
             <span className="text-white font-bold">Github</span>
             <svg
               viewBox="0 -0.5 48 48"
@@ -184,7 +197,11 @@ export default function Contact() {
               </g>
             </svg>
           </Link>
-          <Link href="https://discord.gg/xKSMPuQj3Y" target="_BLANK" className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <Link
+            href="https://discord.gg/xKSMPuQj3Y"
+            target="_BLANK"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+          >
             <span className="text-white font-bold">Discord</span>
             <svg
               viewBox="0 0 1024 1024"
@@ -208,6 +225,59 @@ export default function Contact() {
             </svg>
           </Link>
         </div>
+
+        <form action="#" className="space-y-8 py-16">
+          <div>
+            <label
+              htmlFor="email"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >
+              Tu correo electrónico
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="block p-3 w-full text-sm text-gray-900 bg-gray-800 rounded-lg border border-gray-900 shadow-sm"
+              placeholder="tucorreo@gmail.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="subject"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >
+              Tema
+            </label>
+            <input
+              type="text"
+              id="subject"
+              className="block p-3 w-full text-sm text-gray-900 bg-gray-800 rounded-lg border border-gray-900 shadow-sm"
+              placeholder="¿De que manera puedo ayudarte?"
+              required
+            />
+          </div>
+          <div className="sm:col-span-2">
+            <label
+              htmlFor="message"
+              className="block mb-2 text-sm font-medium text-gray-400"
+            >
+              Contenido
+            </label>
+            <textarea
+              id="message"
+              rows={6}
+              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-800 rounded-lg shadow-sm border border-gray-900"
+              placeholder="Escribe el contenido de tu mensaje aquí..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-800 sm:w-fit hover:bg-blue-900 focus:outline-none"
+          >
+            ¡Enviar mensaje!
+          </button>
+        </form>
       </div>
     </section>
   );
