@@ -141,7 +141,7 @@ export default function Projects() {
                   />
                 </svg>
               </Link>
-              <Link
+              {/* <Link
                 href="https://github.com/Hexpod604/Reqlogger"
                 target="_BLANK"
                 className="text-white bg-[#24292F] hover:bg-[#24292F]/90 ocus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
@@ -160,7 +160,7 @@ export default function Projects() {
                   />
                 </svg>
                 Repositorio
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
