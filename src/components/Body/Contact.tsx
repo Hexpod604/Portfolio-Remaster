@@ -234,7 +234,7 @@ export default function Contact() {
           netlify-honeypot="bot-field"
           data-netlify={true}
         >
-          <input name="bot-field" />
+          <input className="hidden" name="bot-field" />
           <div>
             <label
               htmlFor="email"
