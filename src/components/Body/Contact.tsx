@@ -226,18 +226,25 @@ export default function Contact() {
           </Link>
         </div>
 
-        <form action="#" className="space-y-8 py-16">
+        <form
+          action="#"
+          className="space-y-8 py-16"
+          name="contact"
+          method="POST"
+          data-netlify={true}
+        >
           <div>
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className="block mb-2 text-sm font-medium text-gray-300"
             >
               Tu correo electrónico
             </label>
             <input
               type="email"
               id="email"
-              className="block p-3 w-full text-sm text-gray-900 bg-gray-800 rounded-lg border border-gray-900 shadow-sm"
+              name="email"
+              className="block p-3 w-full text-sm text-gray-200 bg-gray-800 rounded-lg border border-gray-900 shadow-sm focus:outline-none"
               placeholder="tucorreo@gmail.com"
               required
             />
@@ -245,14 +252,15 @@ export default function Contact() {
           <div>
             <label
               htmlFor="subject"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className="block mb-2 text-sm font-medium text-gray-300"
             >
               Tema
             </label>
             <input
               type="text"
               id="subject"
-              className="block p-3 w-full text-sm text-gray-900 bg-gray-800 rounded-lg border border-gray-900 shadow-sm"
+              name="subject"
+              className="block p-3 w-full text-sm text-gray-200 bg-gray-800 rounded-lg border border-gray-900 shadow-sm focus:outline-none"
               placeholder="¿De que manera puedo ayudarte?"
               required
             />
@@ -260,14 +268,15 @@ export default function Contact() {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium text-gray-400"
+              className="block mb-2 text-sm font-medium text-gray-300"
             >
               Contenido
             </label>
             <textarea
               id="message"
+              name="message"
               rows={6}
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-800 rounded-lg shadow-sm border border-gray-900"
+              className="block p-2.5 w-full text-sm text-gray-200 bg-gray-800 rounded-lg shadow-sm border border-gray-900 focus:outline-none"
               placeholder="Escribe el contenido de tu mensaje aquí..."
             ></textarea>
           </div>
