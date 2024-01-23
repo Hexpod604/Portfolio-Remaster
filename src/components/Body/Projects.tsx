@@ -1,4 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
+
+import CloudBucks from "@/images/cloudbucks.png"
+import CloudClips from "@/images/cloudclips.png"
+import Npm from "@/images/npm.webp"
 
 export default function Projects() {
   return (
@@ -9,14 +14,15 @@ export default function Projects() {
         </h2>
 
         <div className="flex gap-6 justify-between items-stretch">
-          <div className="mb-12 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between">
+          <div className="mb-12 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px]">
             <div className="relative overflow-hidden mb-3">
-              <img
-                src="https://cdn.discordapp.com/attachments/808747427959930921/1199062084596551730/image.png?ex=65c12c96&is=65aeb796&hm=1a1c9d629b4957c18c295f3a1f051a5cff9027a05b1906ad2c68d683edaf69d8&"
+              <Image
+                src={CloudBucks}
+                alt="CloudBucks"
                 className="h-52 w-full object-cover duration-300 hover:cursor-pointer hover:scale-[1.25] hover:rotate-[5deg] rounded-lg shadow-lg"
               />
             </div>
-            <h5 className="text-lg font-bold">CloudyCoding | Cloudbucks</h5>
+            <h5 className="text-lg font-bold">CloudyCoding | CloudBucks</h5>
             <div className="flex items-center justify-center text-sm font-medium gap-3 lg:justify-start">
               <span className="text-orange-600 font-semibold">HTML</span>
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
@@ -52,8 +58,9 @@ export default function Projects() {
 
           <div className="mb-12 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between">
             <div className="relative overflow-hidden mb-3">
-              <img
-                src="https://cdn.discordapp.com/attachments/808747427959930921/1199064550134267975/image.png?ex=65c12ee2&is=65aeb9e2&hm=aefead042af2f19ba49813f9354e1a8796a1afeacafe55bb2f4691d512713ef4&"
+              <Image
+                src={CloudClips}
+                alt="CloudClips"
                 className="h-52 w-full object-cover duration-300 hover:cursor-pointer hover:scale-[1.25] hover:rotate-[5deg] rounded-lg shadow-lg"
               />
             </div>
@@ -92,10 +99,11 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between">
+          <div className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px]">
             <div className="relative overflow-hidden mb-3">
-              <img
-                src="https://www.bleepstatic.com/content/posts/2018/07/12/npm.png"
+              <Image
+                src={Npm}
+                alt="Npm logo"
                 className="h-52 w-full object-cover duration-300 hover:cursor-pointer hover:scale-[1.25] hover:rotate-[5deg] rounded-lg shadow-lg"
               />
             </div>
