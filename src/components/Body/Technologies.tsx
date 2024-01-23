@@ -138,8 +138,8 @@ export default function Technologies() {
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-Linecap="round"
-                stroke-Linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
