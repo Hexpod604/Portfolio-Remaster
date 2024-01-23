@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import CloudBucks from "@/images/cloudbucks.png"
-import CloudClips from "@/images/cloudclips.png"
-import Npm from "@/images/npm.webp"
+import CloudBucks from "@/public/images/cloudbucks.png"
+import CloudClips from "@/public/images/cloudclips.png"
+import Npm from "@/public/images/npm.webp"
 
 export default function Projects() {
   return (
