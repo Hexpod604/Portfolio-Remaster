@@ -6,7 +6,7 @@ import "atropos/css";
 import StartedButton from "@/components/Buttons/StartedButton";
 import DownloadButton from "@/components/Buttons/DownloadButton";
 
-import ProfilePhoto from "@/public/images/profilePhoto.png";
+import ProfilePhoto from "@/images/profilePhoto.png";
 
 import Image from "next/image";
 

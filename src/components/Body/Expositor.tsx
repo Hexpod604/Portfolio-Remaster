@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from 'next/image'
-import BushCodingLogo from "@/public/images/bushcoding.png"
-import CloudyCodingLogo from "@/public/images/cloudycodingcroplogo.png"
-import HexStudiosLogo from "@/public/images/hexstudioscrop.png"
+import BushCodingLogo from "@/images/bushcoding.png"
+import CloudyCodingLogo from "@/images/cloudycodingcroplogo.png"
+import HexStudiosLogo from "@/images/hexstudioscrop.png"
 
 export default function Expositor() {
   return (
