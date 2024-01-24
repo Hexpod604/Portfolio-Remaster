@@ -1,6 +1,6 @@
-# ¡Hola! :wave: Soy Lautaro, Desarrollador Web Front-End
+# ¡Hola! 👋 Soy Lautaro, Desarrollador Web Front-End
 
-¡Bienvenido a mi espacio digital! Soy un apasionado desarrollador web con 4 años de experiencia, formado con diversas tecnologías front-end. Mi enfoque va más allá de simplemente crear sitios web visualmente atractivos; me dedico a construir sólidas arquitecturas y funcionalidades que optimicen la experiencia del usuario.
+¡Bienvenido a mi espacio digital! Soy un apasionado desarrollador web con 3 años de aprendizaje, formado con diversas tecnologías front-end. Mi enfoque va más allá de simplemente crear sitios web visualmente atractivos; me dedico a construir sólidas arquitecturas y funcionalidades que optimicen la experiencia del usuario.
 
 ## ¿Qué puedo hacer por ti?
 
