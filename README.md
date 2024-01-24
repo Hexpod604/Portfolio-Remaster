@@ -18,7 +18,7 @@
 
 ## ¿Cómo podemos colaborar?
 
-¡Estoy emocionado de trabajar contigo y llevar tus ideas a un nivel superior! Puedes contactarme a través de `lautarospiazzi.dev@gmail.com` para discutir tus necesidades y objetivos. Estoy disponible para proyectos a corto y largo plazo.
+¡Estoy emocionado de trabajar contigo y llevar tus ideas a un nivel superior! Puedes contactarme a través de `lautarospiazzi.dev@gmail.com` para discutir tus necesidades y objetivos.
 
 ¡Gracias por considerar mis servicios! Espero con interés la oportunidad de colaborar contigo.
 
