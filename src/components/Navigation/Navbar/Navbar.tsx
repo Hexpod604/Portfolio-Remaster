@@ -7,7 +7,40 @@ import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
+
   const path = usePathname();
+
+  const idRedirect = (targetAnchor: string, offset: number = 20) => {
+    if (!(typeof window === "undefined")) {
+      const hash = targetAnchor;
+
+      if(hash == "#start") {
+        return window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      const startWithHashRegex = /^#\w+/g;
+      const targetElement = document?.querySelector(`${hash}`);
+
+      if (!startWithHashRegex.test(hash) || !targetElement) {
+        return;
+      }
+
+      const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - offset;
+
+      const scroll = () => {
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      };
+
+      requestAnimationFrame(scroll);
+    }
+  };
   return (
     <nav className="w-full fixed backdrop-blur-md z-[1000]">
       <div className="w-full md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-4 lg:px-0">
@@ -51,18 +84,19 @@ export default function Navbar() {
           <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 backdrop-blur-lg lg:backdrop-blur-none rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0">
             {NavbarLinks.map((item, index) => (
               <li key={index}>
-                <Link
-                  onClick={() => setOpen(false)}
-                  href={item.path}
-                  scroll={false}
+                <button
+                  onClick={() => {
+                    setOpen(false);
+                    idRedirect(item.path);
+                  }}
                   className={`${
                     path === item.path
                       ? "text-indigo-400"
                       : "text-gray-100 lg:hover:text-indigo-400"
                   } block py-2 px-3 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0`}
                 >
-                  <span className="3xl ml-2 z-10">{item.name}</span>
-                </Link>
+                  <span className="z-10">{item.name}</span>
+                </button>
               </li>
             ))}
           </ul>
