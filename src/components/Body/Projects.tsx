@@ -24,9 +24,9 @@ export default function Projects() {
                 className="h-52 w-full object-cover duration-300 hover:cursor-pointer hover:scale-[1.25] hover:rotate-[5deg] rounded-lg shadow-lg"
               />
             </div>
-            <h5 className="text-lg font-bold">CloudyCoding | CloudBucks</h5>
+            <h3 className="text-lg font-bold">CloudyCoding | CloudBucks</h3>
             <div className="flex items-center justify-start text-sm font-medium gap-3">
-              <span className="text-orange-600 font-semibold">HTML</span>
+              <span className="text-orange-400 font-semibold">HTML</span>
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
             <p className="text-neutral-300">
@@ -67,9 +67,9 @@ export default function Projects() {
               />
             </div>
 
-            <h5 className="text-lg font-bold">CloudyCoding | CloudClips</h5>
+            <h3 className="text-lg font-bold">CloudyCoding | CloudClips</h3>
             <div className="flex items-center justify-start text-sm font-medium gap-3">
-              <span className="text-orange-600 font-semibold">HTML</span>
+              <span className="text-orange-400 font-semibold">HTML</span>
               <span className="text-sky-400 font-semibold">TailwindCSS</span>
             </div>
             <p className="text-neutral-300">
@@ -110,7 +110,7 @@ export default function Projects() {
               />
             </div>
 
-            <h5 className="text-lg font-bold">Request logger</h5>
+            <h3 className="text-lg font-bold">Request logger</h3>
             <div className="flex items-center justify-start text-sm font-medium gap-3">
               <span className="text-yellow-300 font-semibold">Javascript</span>
               <span className="text-green-300 font-semibold">NodeJS</span>
