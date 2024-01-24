@@ -54,6 +54,7 @@ export default function Navbar() {
                 <Link
                   onClick={() => setOpen(false)}
                   href={item.path}
+                  scroll={false}
                   className={`${
                     path === item.path
                       ? "text-indigo-400"
