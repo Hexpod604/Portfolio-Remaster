@@ -25,7 +25,7 @@ export default function Expositor() {
             data-aos-offset="-200"
             href="https://bushcoding.github.io/"
             target="_BLANK"
-            className="flex justify-center items-center duration-100 hover:-translate-y-[3px]"
+            className="flex justify-center items-center duration-100 hover:!transform hover:-translate-y-[3px]"
           >
             <Image
               className="invert h-8 sm:h-12 w-fit"
@@ -41,7 +41,7 @@ export default function Expositor() {
             data-aos-offset="-200"
             href="https://cloudycoding.co"
             target="_BLANK"
-            className="flex gap-2 justify-center items-center duration-100 hover:-translate-y-[3px]"
+            className="flex gap-2 justify-center items-center duration-100 hover:!transform hover:-translate-y-[3px]"
           >
             <Image
               className="h-8 sm:h-12 w-fit"
@@ -60,7 +60,7 @@ export default function Expositor() {
             data-aos-delay="600"
             data-aos-offset="-200"
             href="https://lautaro-spiazzi.netlify.app"
-            className="flex justify-center items-center duration-100 hover:-translate-y-[3px]"
+            className="flex justify-center items-center duration-100 hover:!transform hover:-translate-y-[3px]"
           >
             <Image
               className="h-8 sm:h-12 w-fit"
