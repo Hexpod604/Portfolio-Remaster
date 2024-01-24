@@ -40,7 +40,7 @@ export default function Presentation() {
             <p className="mb-4 text-md sm:text-lg lg:text-xl">
               Con{" "}
               <span className="font-semibold text-gray-300">
-                4 años de aprendizaje
+                3 años de aprendizaje
               </span>{" "}
               en el desarrollo, mi enfoque no solo se centra en la creación de
               sitios web visualmente atractivos, sino también en la construcción
