@@ -11,7 +11,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Portafolio | Lautaro Spiazzi",
   description:
-    "Desarrollador web apasionado con 3 años de aprendizaje, tanto en front-end como en back-end con variedad de tecnologías presentes en la industria actual.",
+    "Desarrollador web apasionado con 3 años de aprendizaje, tanto en front-end como en back-end, con un buen manejo en gran variedad de tecnologías presentes en la industria actual.",
   metadataBase: new URL("https://lautaro-spiazzi.netlify.app"),
   alternates: {
     canonical: "/",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Portafolio | Lautaro Spiazzi",
     description:
-      "Desarrollador web apasionado con 3 años de aprendizaje, tanto en front-end como en back-end con variedad de tecnologías presentes en la industria actual.",
+    "Desarrollador web apasionado con 3 años de aprendizaje, tanto en front-end como en back-end, con un buen manejo en gran variedad de tecnologías presentes en la industria actual.",
     url: "https://lautaro-spiazzi.netlify.app",
     images: PageIcon.src,
     type: "website",
