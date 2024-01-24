@@ -16,7 +16,7 @@ export default function Projects() {
         </h2>
 
         <div className="flex gap-6 justify-between items-stretch flex-wrap">
-          <div data-aos={"flip-right"} data-aos-delay="200" className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
+          <div data-aos={"flip-right"} data-aos-delay="200" className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between mt-0 lg:mt-2 min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={CloudBucks}
@@ -101,7 +101,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div data-aos={"flip-left"} data-aos-delay="200" className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
+          <div data-aos={"flip-left"} data-aos-delay="200" className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between mt-0 lg:mt-2 min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={Npm}
