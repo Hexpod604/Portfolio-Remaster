@@ -9,14 +9,14 @@ import Npm from "@/images/npm.webp"
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className={`bg-projects-bg bg-no-repeat bg-cover`}>
       <div className="py-8 px-4 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl lg:px-0 lg:py-16">
-        <h2 className="mb-8 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white">
+        <h2 data-aos="fade-in" className="mb-8 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white">
           Proyectos finalizados
         </h2>
 
         <div className="flex gap-6 justify-between items-stretch flex-wrap">
-          <div className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
+          <div data-aos={"flip-right"} data-aos-delay="200" className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={CloudBucks}
@@ -58,7 +58,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between min-w-[250px]">
+          <div data-aos={"flip-up"} className="mb-6 lg:mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={CloudClips}
@@ -101,7 +101,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
+          <div data-aos={"flip-left"} data-aos-delay="200" className="mb-0 text-white flex-1 bg-gray-800 p-6 rounded-lg flex flex-col gap-3 justify-between translate-y-[6px] min-w-[250px]">
             <div className="relative overflow-hidden mb-3">
               <Image
                 src={Npm}

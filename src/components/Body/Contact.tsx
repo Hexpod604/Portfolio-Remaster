@@ -4,12 +4,18 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="">
       <div className="py-8 lg:py-16 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-4 lg:px-0">
-        <h2 className="mb-3 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white">
+        <h2
+          data-aos="fade-in"
+          className="mb-3 text-xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-tight text-center text-white"
+        >
           ¿Cómo contactarme?
         </h2>
-        <p className="mb-8 text-md font-normal text-center text-gray-400 md:text-xl">
+        <p
+          data-aos="fade-in"
+          className="mb-8 text-md font-normal text-center text-gray-400 md:text-xl"
+        >
           Cuento con diversos métodos de contacto, sin embargo, a continuación
           detallaré las redes sociales que utilizo activamente, y a través de
           las cuales responderé ante su consulta, al igual que un formulario de
@@ -17,9 +23,10 @@ export default function Contact() {
         </p>
         <div className="flex justify-center items-center flex-wrap gap-2 sm:gap-12 text-gray-500 text-gray-400">
           <Link
+            data-aos="fade-in"
             href="https://www.instagram.com/lautaro_spiazzi/"
             target="_BLANK"
-            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]"
           >
             <span className="text-white font-bold">Instagram</span>
             <svg
@@ -122,9 +129,10 @@ export default function Contact() {
             </svg>
           </Link>
           <Link
+            data-aos="fade-in"
             href="https://github.com/Hexpod604"
             target="_BLANK"
-            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]"
           >
             <span className="text-white font-bold">Github</span>
             <svg
@@ -169,9 +177,10 @@ export default function Contact() {
             </svg>
           </Link>
           <Link
+            data-aos="fade-in"
             href="https://discord.gg/xKSMPuQj3Y"
             target="_BLANK"
-            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]"
+            className="flex justify-center items-center flex-col w-28 h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]"
           >
             <span className="text-white font-bold">Discord</span>
             <svg
@@ -198,6 +207,7 @@ export default function Contact() {
         </div>
 
         <form
+        data-aos="fade-up"
           className="space-y-8 py-16"
           name="contact"
           method="POST"

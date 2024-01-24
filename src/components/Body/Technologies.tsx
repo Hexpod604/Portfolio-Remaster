@@ -4,11 +4,17 @@ export default function Technologies() {
   return (
     <section id="technologies">
       <div className="py-8 lg:py-16 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-4 lg:px-0">
-        <h2 className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
-          Tecnologías que utilizo
+        <h2 data-aos={"fade-in"} className="mb-8 text-3xl font-bold tracking-tight leading-tight text-center text-white md:text-4xl">
+          ¿Qué tecnologías utilizo?
         </h2>
+        <p
+          data-aos="fade-in"
+          className="mb-8 text-md font-normal text-center text-gray-400 md:text-xl"
+        >
+          A continuación detallaré sobre cuáles tecnologías sé trabajar correctamente;
+        </p>
         <div className="w-full flex justify-evenly sm:justify-center items-center flex-wrap gap-8 sm:gap-12 text-gray-500 text-gray-400">
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">HTML</span>
             <svg
               viewBox="0 0 32 32"
@@ -36,7 +42,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">CSS</span>
             <svg
               viewBox="0 0 32 32"
@@ -64,7 +70,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">Tailwind</span>
             <svg
               viewBox="0 0 32 32"
@@ -86,7 +92,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">JS</span>
             <svg
               viewBox="0 0 256 256"
@@ -125,7 +131,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">TS</span>
             <svg
               viewBox="0 0 256 256"
@@ -170,7 +176,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">React</span>
             <svg
               viewBox="0 0 32 32"
@@ -199,7 +205,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">GIT</span>
             <svg
               viewBox="0 0 32 32"
@@ -226,7 +232,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">NextJS</span>
             <svg
               viewBox="0 0 15 15"
@@ -251,7 +257,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">NodeJS</span>
             <svg
               viewBox="-16.5 0 289 289"
@@ -280,7 +286,7 @@ export default function Technologies() {
               </g>
             </svg>
           </div>
-          <div className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:-translate-y-[3px]">
+          <div data-aos={"fade-in"} className="flex justify-center items-center flex-col w-fit h-fit sm:w-28 sm:h-28 bg-gray-800 rounded-lg p-4 gap-1 duration-75 hover:!transform hover:-translate-y-[3px]">
             <span className="text-white font-bold">MongoDB</span>
             <svg
               viewBox="0 0 1024 1024"

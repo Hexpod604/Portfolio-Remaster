@@ -6,35 +6,63 @@ export default function Presentation() {
   return (
     <section id="aboutme">
       <div className="py-8 px-4 mx-auto md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl lg:py-16 lg:px-0">
-        <div className="max-w-screen-lg sm:text-lg text-gray-400">
+        <div
+          data-aos={"fade-in"}
+          className="max-w-screen-lg sm:text-lg text-gray-400"
+        >
           <h2 className="mb-3 text-3xl font-bold tracking-tight leading-tight text-center sm:text-left text-white md:text-4xl">
             Acerca de mi persona
           </h2>
-          <p className="mb-1 text-md sm:text-lg lg:text-xl">
-            Me presento, soy <span className="font-semibold text-gray-300">Lautaro Spiazzi</span>, y cumplo los roles de
-            desarrollador web tanto{" "}
-            <span className="font-semibold text-yellow-200">Front-End</span>{" "}
-            como <span className="font-semibold text-yellow-200">Back-End</span>
-            .
-          </p>
-          <p className="mb-1 text-md sm:text-lg lg:text-xl">
-            Habito en la localidad de{" "}
-            <span className="font-semibold text-gray-300">Entre Rios, Argentina</span>, con
-            una edad de 15 años, logré abrirme un espacio para desarrollar{" "}
-            <span className="font-semibold text-gray-300">sitios web</span> en base a la{" "}
-            <span className="font-semibold text-sky-400">creatividad</span> y la{" "}
-            <span className="font-semibold text-sky-400">funcionalidad</span>.
-          </p>
-          <p className="mb-4 text-md sm:text-lg lg:text-xl">
-            Con <span className="font-semibold text-gray-300">4 años de aprendizaje</span> en
-            el desarrollo, mi enfoque no solo se centra en la creación de sitios
-            web visualmente atractivos, sino también en la construcción de{" "}
-            <span className="font-semibold text-sky-400">sólidas arquitecturas</span> y{" "}
-            <span className="font-semibold text-sky-400">funcionalidades</span> que optimicen
-            la <span className="font-semibold text-yellow-200">experiencia del usuario</span>{" "}
-            y permitan una visita memorable a su sitio.
-          </p>
+          <div>
+            <p className="mb-1 text-md sm:text-lg lg:text-xl">
+              Me presento, soy{" "}
+              <span className="font-semibold text-gray-300">
+                Lautaro Spiazzi
+              </span>
+              , y cumplo los roles de desarrollador web tanto{" "}
+              <span className="font-semibold text-yellow-200">Front-End</span>{" "}
+              como{" "}
+              <span className="font-semibold text-yellow-200">Back-End</span>.
+            </p>
+            <p className="mb-1 text-md sm:text-lg lg:text-xl">
+              Habito en la localidad de{" "}
+              <span className="font-semibold text-gray-300">
+                Entre Rios, Argentina
+              </span>
+              , con una edad de 15 años, logré abrirme un espacio para
+              desarrollar{" "}
+              <span className="font-semibold text-gray-300">sitios web</span> en
+              base a la{" "}
+              <span className="font-semibold text-sky-400">creatividad</span> y
+              la{" "}
+              <span className="font-semibold text-sky-400">funcionalidad</span>.
+            </p>
+            <p className="mb-4 text-md sm:text-lg lg:text-xl">
+              Con{" "}
+              <span className="font-semibold text-gray-300">
+                4 años de aprendizaje
+              </span>{" "}
+              en el desarrollo, mi enfoque no solo se centra en la creación de
+              sitios web visualmente atractivos, sino también en la construcción
+              de{" "}
+              <span className="font-semibold text-sky-400">
+                sólidas arquitecturas
+              </span>{" "}
+              y{" "}
+              <span className="font-semibold text-sky-400">
+                funcionalidades
+              </span>{" "}
+              que optimicen la{" "}
+              <span className="font-semibold text-yellow-200">
+                experiencia del usuario
+              </span>{" "}
+              y permitan una visita memorable a su sitio.
+            </p>
+          </div>
+
           <Link
+            data-aos={"fade-right"}
+            data-aos-offset="-20"
             href="#contact"
             className="inline-flex gap-2 px-4 py-2 bg-blue-800 hover:bg-blue-900 duration-100 rounded-lg items-center font-medium text-gray-100"
           >
